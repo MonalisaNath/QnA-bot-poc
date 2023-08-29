@@ -7,7 +7,7 @@ AWS services:
 - [Amazon Transcribe](https://aws.amazon.com/transcribe/)
 - [Amazon Sagemaker jumpstart](https://aws.amazon.com/sagemaker/jumpstart/)
 - [Amazon Polly](https://aws.amazon.com/polly/)
-- 
+  
 
 The JavaScript SDK Transcribe Streaming client encapsulates the API into a JavaScript 
 library that can be run on browsers, Node.js and potentially React Native. By default, 
@@ -23,9 +23,9 @@ and React Native.
 
 * The following AWS resources:
     - An unauthenticated AWS Identity and Access Management (IAM) user role with the following permissions:
-        - polly:
+        - polly:full access
         - transcribe:StartStreamTranscriptionWebSocket
-        - sagemaker:
+        - sagemaker: InvokeEndpoint
 * Creat an Amazon Cognito Identity Pool .
         
 
