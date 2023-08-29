@@ -55,6 +55,7 @@ Each button on the interface invokes one of these functions when clicked.
 ### Creating the JavaScript and Node.js
 The **./src/libs/** folders contains a file for each of the AWS Service clients required. In the **awsID.js** file, you must
 replace "REGION" with your AWS Region (e.g. us-west-2), and replace "IDENTITY_POOL_ID" with the Amazon Cognito identity pool id you created in [Create the resources](#create-the-resources) on this page.
+**./src/index.js** in line 35 ( creating a pooly client) make the required changes as mentioned in the comments 
 
 **./src/index.js** imports all the required AWS Service and third party modules and contains the UI logic of the app.
 
