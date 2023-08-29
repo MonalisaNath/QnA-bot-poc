@@ -71,7 +71,6 @@ To bundle the JavaScript and Node.js for this example in a single file named mai
 enter the following commands in sequence in the AWS CLI command line:
 
 ```
-cd javascriptv3/example_code/cross-services/transcribe-streaming-app/
 npm run build
 ```
 This will create a minified js file called **main.js** in the src folder.
